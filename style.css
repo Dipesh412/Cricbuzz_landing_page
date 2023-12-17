@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width: 42px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.navbar{
+    display:flex;
+    flex-direction: row; 
+    background-color: rgb(15, 17, 15);
+    cursor: pointer;
+}
+.nav1{
+    display: flex;
+}
+.nav1 li{
+    list-style: none;
+    padding: 23px 24px;
+    
+    
+}
+.nav1 li a{
+    text-decoration: none;
+    color: white;
+}
+.nav1 li a:hover{
+    color:red;
+}
+
+
+.footer1{
+    display: flex;
+    height: 300px;
+    width:100%;
+    background-color: black;
+    
+}
+.logo1{
+    width:20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo1 img{
+    margin-top: 34px;
+    width:133px;
+}
+
+.mob{
+    color:white;
+    
+    margin-top: 84px;
+}
+.mob li{
+    list-style: none;
+    margin: 8px 0;
+    
+}
+.mob-text{
+    font-size: 24px;
+    text-align: center;
+}
+.ul-text{
+    margin: 8px 94px;
+    /* margin-top: 8px; */
+    padding: 23px 23px;
+    text-align: left;
+
+
+}
+.mob li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 13px;
+}
+footer{
+    text-align: center;
+    font-size: 18px;
+    
+}
+.ind{
+    border: 2px solid black;
+    width:45%;
+    height: 135px;
+    margin: 4px 4px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ls{
+    margin:2px 134px;
+    font-size: 16px;
+    color:rgb(41, 216, 25);
+}
+.ls ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.ls li{
+    list-style: none;
+    /* margin: 8px 0; */
+    
+    
+}
+.ls li a{
+    text-decoration: none;
+    color:black;
+}
+.ls li a:hover{
+    color:rgb(233, 77, 16)
+}
+.sec{
+    background:url(img/bg1.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* opacity: 0.5; */
+    z-index: -1;
+    color:rgb(7, 6, 6);
+}
+.ip{
+    width: 43%;
+    margin:4px 4px;
+}
+.ip img{
+    width:500px;
+    height: 245px;
+    border: 3px solid black;
+    border-radius: 14px;
+
+}
